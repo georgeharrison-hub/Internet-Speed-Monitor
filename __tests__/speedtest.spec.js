@@ -1,4 +1,4 @@
-const speedtest = require('../speedtest')
+const speedtest = require('../model/speedtest')
 
 test('retorna um json com a palavra download', () => {
     const test_result = speedtest()
